@@ -1,0 +1,41 @@
+
+# .NET
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+
+# Node.js
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+
+# React Native / Expo
+.expo/
+web-build/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Archivos temporales
+temp/
+tmp/
+
+# Documentos recibidos de clientes
+storage/
+pedidos/
+uploads/
+
+# Sistema operativo
+Thumbs.db
+.DS_Store
+
+#Mi info
+requisitos.txt
