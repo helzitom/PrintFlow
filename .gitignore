@@ -1,5 +1,4 @@
-@'
-# .NET
+﻿# .NET
 **/bin/
 **/obj/
 .vs/
@@ -23,7 +22,7 @@ web-build/
 !.vscode/
 !.vscode/settings.json
 
-# Configuración local y secretos
+# Configuracion local y secretos
 **/appsettings.Development.json
 **/appsettings.Local.json
 **/secrets.json
@@ -35,15 +34,15 @@ web-build/
 temp/
 tmp/
 
-# Documentos recibidos de clientes
-storage/
+# Documentos recibidos y almacenamiento local
+/storage/
 pedidos/
 uploads/
+**/App_Data/
 
 # Sistema operativo
 Thumbs.db
 .DS_Store
 
-# Información privada del proyecto
+# Informacion privada del proyecto
 requisitos.txt
-'@ | Set-Content ..\.gitignore -Encoding utf8

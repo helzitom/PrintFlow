@@ -11,13 +11,13 @@ public class Documento
     public Guid Id {get ; private set;}
 
     // Nombre original del archivo recibido
-    public string? NombreArchivo {get; private set;}
+    public string NombreArchivo {get; private set;}
 
     // Extensión del archivo
-    public string? Extension { get; private set;}
+    public string Extension { get; private set;}
 
     // Ubicación donde se almacena del archivo
-    public string? RutaAlmacenamiento {get; private set;}
+    public string RutaAlmacenamiento {get; private set;}
 
     // Cantidad total de páginas del doc
     public int CantidadPaginas {get; private set;}
