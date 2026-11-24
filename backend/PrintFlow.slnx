@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="../tests/PrintFlow.UnitTests/PrintFlow.UnitTests.csproj" />
+  <Project Path="PrintFlow.API/PrintFlow.API.csproj" />
+  <Project Path="PrintFlow.Application/PrintFlow.Application.csproj" />
+  <Project Path="PrintFlow.Domain/PrintFlow.Domain.csproj" />
+  <Project Path="PrintFlow.Infrastructure/PrintFlow.Infrastructure.csproj" />
+</Solution>
